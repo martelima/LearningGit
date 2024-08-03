@@ -41,3 +41,19 @@ to make a commit it is interesting to go through a few stages:
                         /Modified
                Commit--- Staging
                         \Committed
+
+ 
+"Modified" would be the stage of modifying files, adding, deleting, editing, where Git records the modification. if you want to launch new lines in the Commit, we insert them in the staging stage, as a special area where it's already ready and just waiting to go live. So we can define that "Staging" represents the files ready to be sent. This stage is important for all the project developers to ensure that there is nothing to be corrected and that everything is in good working order. Once everything has been checked, it will be sent to the "Committed" stage, where the files will be inserted into the final version of the project. The ''Staging'' stage helps you to have a line of work and reliability in versioning, so let's say that it would be a stage more dedicated to testing and experimenting with routines.
+
+Leaving aside "Commit", let's talk a little about "Branch", which is a branch of one of the historical points, usually aimed at a specific modification, which can return to the timeline or not. 
+
+                                                    ----------@-------------@-------------------------@--------------------->
+                                                   / 
+                                   -----@----@----@-----                                      ------------@----------@------>
+                                  /                     \                                    /
+         @-----------------------@------------@----------@-----------------------------------@------------------------------>
+
+
+
+
+
