@@ -3,6 +3,18 @@ this is a repository of notes that I use to learn the Git or GitHub language
 
 https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU 
 
+What is GIT?
+Git is software for tracking changes to any set of files, generally used to coordinate work between programmers who develop source code collaboratively during during software development. Its objectives include speed, data integrity and support for non-linear distributed workflows.
+
+Its objectives include speed, data integrity and support for for distributed non-linear workflows. This means that two or more people can work on the same project simultaneously, and in order to have historical control over what is being done, the tool allows you to have different versions of the code in different styles and/or functionalities.
+
+but where would these projects be stored? which tool would help us work with Git? to answer this we can suggest GitHub, there are other tools on the market but this is one of the best known. so we can say that GitHub, Inc. is an Internet hosting provider for
+software development and version control using Git. It offers distributed version control and the functionality of
+Git's source code management functionality, as well as its own
+features.
+
+So in a nutshell we can say that GitHub has the functionality to store your project in a safe place, it allows you to share your project with other programmers, and other developers can collaborate with your project, there are many other possibilities, but we'll explore these later in this brief manual.
+
 To understand this better, we need a few concepts:
 
 ------------------------------------------Repository------------------------------------------- 
