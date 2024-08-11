@@ -60,6 +60,47 @@ Now that we've understood the basics of Git and GitHub, we need to install a Git
 
 After installing a git terminal on your computer, we can start testing some commands, we'll start identifying the version of git in the terminal using the command :
 
-                     git --version
+       git --version
                      
+After checking the git version, let's make a configuration, type the following command into the terminal :     
 
+       git config --global --list
+
+this line of code reports the settings that are inside git
+And to enter our information into git we need to use a few commands, let's start by entering a username using the :
+
+       git config -- global user.name "YourName"
+
+and to test whether the terminal has registered your username we use the command again:
+
+       git config --global --list
+
+if you're following the steps correctly, you'll see after the previous command that the terminal now prints your username,  Now let's take advantage of this and enter the user's e-mail address using the command :
+
+       git config --global user.email yourname@yuoremail.com
+
+we test it again with the command:
+
+       git config --global --list
+
+now all commands registered from this point onwards will be identified by the terminal as having been carried out by a registered user
+
+When we think about this tutorial we imagine that not everyone is used to the commands, so we'll briefly summarise some commands in the terminal to help you understand. So the first terminal command we should know is "ls" which means to list files and directories, If you create a file with notepad in this folder, when you ask the terminal to list it again, you'll notice that the end of the file ends with ".txt", which is the format of the text file. 
+
+The second terminal command we need to learn is "cd", which means "choose directory". To test this, we recommend that you create a folder inside where your programme is installed, as the folder will act as a directory. Then type into the terminal "cd foldername/" 
+
+When we execute this command, the terminal enters the folder you created, and if you type the command "ls" you'll realise that the terminal will list it, but as the folder is empty no files should appear.
+
+then to create a file we'll use the command "touch TestFile.txt" after running this command, use "ls" to check that your text file has been created.
+
+we believe that you may be annoyed by so much information in your terminal, so if you want to clear the information just type "clear"
+
+ok! now that we know how to create and access folders or directories, create txt files, it's important to know how to remove them, in case you've created a file the wrong way round or want to clean up the folder we've created with the tutorial, use the "rm" command which means remove. As follows: "rm TestFile.txt"
+attention !!! to remove folders and directories the command used is "rmdir"
+to create directories the command is "mkdir NameChosen"
+
+ok we know how to get into folders and directories, we know how to create and delete files, but we must also know how to get out of the folder we have created, so we use the command "cd ..", which returns us to the folder we were in before.
+
+Now that we know how to navigate between directories, create and delete files, we can learn how to interact with files. To do this, we recommend that you create a directory and inside the directory create a text file, which we will interact with.
+Now with the directory created where the file you created will be, use the command "nano TextFileName.txt".
+Soon the terminal will change its appearance, as we open a text editor, where we have some tips below if we want to save, create pages, etc... and to use the commands just use the CTRL key with the letter corresponding to the functionality you want. .. let's go! be free and write a "Hello World!" and try saving through the terminal then check if it really worked!  To display the contents of the text file, simply use the command "cat TextFileName.txt"
