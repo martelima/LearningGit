@@ -113,3 +113,11 @@ and then
 ```bash
 mkdir project-02
 ```
+then check with the ‘ls’ command how the items in your directory are sorted
+```bash
+project-e2/ project-l/ testFi1e . txt
+```
+your terminal should probably show you the result we saw above, but don't worry, now we're going to learn the command ‘mv’ which means move, so type the following in the terminal :
+```bash
+mv project-02 project-2
+```
