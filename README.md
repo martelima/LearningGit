@@ -102,3 +102,14 @@ ok we know how to get into folders and directories, we know how to create and de
 Now that we know how to navigate between directories, create and delete files, we can learn how to interact with files. To do this, we recommend that you create a directory and inside the directory create a text file, which we will interact with.
 Now with the directory created where the file you created will be, use the command "nano TextFileName.txt".
 Soon the terminal will change its appearance, as we open a text editor, where we have some tips below if we want to save, create pages, etc... and to use the commands just use the CTRL key with the letter corresponding to the functionality you want. .. let's go! be free and write a "Hello World!" and try saving through the terminal then check if it really worked!  To display the contents of the text file, simply use the command "cat TextFileName.txt"
+
+##How to create your first repository:
+
+we're going to create two folders named project-1 and project-02, we won't use project-2 because we're going to learn how to use a new command, to correct this deliberate error, start by opening the terminal and create the directories using: 
+```bash
+mkdir project-1
+```
+and then 
+```bash
+mkdir project-02
+```
