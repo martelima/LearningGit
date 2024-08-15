@@ -17,14 +17,12 @@ So in a nutshell we can say that GitHub has the functionality to store your proj
 
 To understand this better, we need a few concepts:
 
-------------------------------------------Repository------------------------------------------- 
+## Repository
 
 Essentially git repository is a directory called ".git" inside of your project.
 This repository tracks all the changes made to your project's files, building up a history over time.
 
-
---------------------------------------------Commit---------------------------------------------
-
+## Commit
 
 Every "Commit" is a milestone in your project, i.e. when we launch some new functionality to the program or project it is interesting to make a Commit, there are cases where many commits are made for each code change, but depending on the need, it is interesting to adopt the idea of versioning, and each commit being a version like an update.
 
