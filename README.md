@@ -121,3 +121,41 @@ your terminal should probably show you the result we saw above, but don't worry,
 ```bash
 mv project-02 project-2
 ```
+after using the ‘ls’ command to check what has been changed within the contents of the folder, note that now your terminal has written the following information:
+```bash
+project-1/ project-2/ 
+```
+As you can see, the ‘mv’ command not only changes the name, but also the order of the folders.
+
+now that we've finished creating the projects and corrected the names and positions, let's learn how to start the repository service, let's select one of the two projects, type it into your terminal:
+```bash
+cd project-1
+```
+so we use the following command:
+```bash
+git init
+```
+then your terminal should display the following message:
+```bash
+Initialised empty Git repository in D:/Cmder/Test/project-1/.git/
+```
+notice that the end has ‘.git’, and that if you just type the ‘ls’ command you won't see the ‘.git’ folder, this is because some systems hide files where the name starts with dots, so to visualise it we add the ‘-a’ functionality, so to visualise everything in a folder or repository we can type:
+```bash
+ls -a
+```
+with the following message printed on your terminal:
+``` bash
+./ ../ .git/
+```
+you can see that the ‘.git’ folder has been created and to access it you just need to use the command:
+```bash
+cd .git 
+```
+then type the command "ls" in the terminal to see its contents.
+For beginners, we don't recommend that you change anything in the ‘.git’ folder, as it's a slightly more complex subject to understand right now, but we'll look at how to go into this in more detail in the future.
+
+then we return to the project-2 folder using a double command:
+```bash
+cd ../project-2
+```
+
