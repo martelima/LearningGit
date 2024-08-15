@@ -61,26 +61,26 @@ After installing a git terminal on your computer, we can start testing some comm
 git --version
 ```                     
 After checking the git version, let's make a configuration, type the following command into the terminal :     
-
-       git config --global --list
-
+```bash
+git config --global --list
+```
 this line of code reports the settings that are inside git
 And to enter our information into git we need to use a few commands, let's start by entering a username using the :
-
-       git config -- global user.name "YourName"
-
+```bash
+git config -- global user.name "YourName"
+````
 and to test whether the terminal has registered your username we use the command again:
-
-       git config --global --list
-
+```bash
+git config --global --list
+```
 if you're following the steps correctly, you'll see after the previous command that the terminal now prints your username,  Now let's take advantage of this and enter the user's e-mail address using the command :
-
-       git config --global user.email yourname@yuoremail.com
-
+```bash
+git config --global user.email yourname@yuoremail.com
+```
 we test it again with the command:
-
-       git config --global --list
-
+```bash
+git config --global --list
+```
 now all commands registered from this point onwards will be identified by the terminal as having been carried out by a registered user
 
 When we think about this tutorial we imagine that not everyone is used to the commands, so we'll briefly summarise some commands in the terminal to help you understand. So the first terminal command we should know is "ls" which means to list files and directories, If you create a file with notepad in this folder, when you ask the terminal to list it again, you'll notice that the end of the file ends with ".txt", which is the format of the text file. 
