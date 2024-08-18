@@ -158,5 +158,3 @@ then we return to the project-2 folder using a double command:
 ```bash
 cd ../project-2
 ```
-
- 
