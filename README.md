@@ -50,8 +50,7 @@ Leaving aside "Commit", let's talk a little about "Branch", which is a branch of
                                    -----@----@----@-----                                      ------------@----------@------>
                                   /                     \                                    /
          @-----------------------@------------@----------@-----------------------------------@------------------------------>
-
-mermaid
+```mermaid
 ---
 title: Example Git diagram
 ---
@@ -76,9 +75,7 @@ gitGraph
    commit
    checkout feature
    commit
-
-
-
+```
 Now that we've understood the basics of Git and GitHub, we need to install a Git terminal to learn and practise the commands. As a Windows user, I'd recommend the Cmdr programme (https://cmder.app/), as it's an excellent programme to start with and simple to use, but we recommend that you look for the one that best suits your needs and operating system.
 
 After installing a git terminal on your computer, we can start testing some commands, we'll start identifying the version of git in the terminal using the command :
