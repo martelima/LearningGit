@@ -51,6 +51,31 @@ Leaving aside "Commit", let's talk a little about "Branch", which is a branch of
                                   /                     \                                    /
          @-----------------------@------------@----------@-----------------------------------@------------------------------>
 
+mermaid
+---
+title: Example Git diagram
+---
+gitGraph
+   commit
+   commit
+   branch develop
+   checkout develop
+   commit
+   commit
+   branch feature
+   checkout feature
+   commit
+   commit
+   checkout main
+   merge develop
+   commit
+   commit
+   commit
+   checkout develop
+   commit
+   commit
+   checkout feature
+   commit
 
 
 
